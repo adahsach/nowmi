@@ -47,7 +47,7 @@ WORKDIR $USER_HOME
 VOLUME  /volume
 
 # Install Wetty
-RUN git clone https://github.com/amolinado/wetty \
+RUN git clone https://github.com/adahsach/wetty \
  && cd wetty \
  && npm install
 
